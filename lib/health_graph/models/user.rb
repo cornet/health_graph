@@ -62,7 +62,7 @@ module HealthGraph
       HealthGraph::FitnessActivityDelete.new self.access_token, params
     end
 
-    def fintness_activity params
+    def fitness_activity params
       HealthGraph::FitnessActivity.new self.access_token, params['uri'], params
     end
     
