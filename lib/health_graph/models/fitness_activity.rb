@@ -9,7 +9,7 @@ module HealthGraph
     hash_attr_accessor :climb, :nearest_teammate_weight, :equipment, :type, :distance, :share, :nearest_teammate_strength_training_activities,
       :nearest_teammate_diabetes, :path, :calories, :total_calories, :activity, :nearest_weight, :total_distance, :previous, 
       :nearest_teammate_sleep, :nearest_teammate_fitness_activities, :uri, :nearest_teammate_general_measurements, :utc_offset,
-      :userID, :duration, :heart_rate, :source, :entry_mode, :start_time, :images, :is_live, :nearest_temamate_background_activities,
+      :userID, :duration, :average_heart_rate, :heart_rate, :source, :entry_mode, :start_time, :images, :is_live, :nearest_temamate_background_activities,
       :share_map, :notes, :comments
 
     class Path
